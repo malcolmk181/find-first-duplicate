@@ -41,3 +41,8 @@ end
     # if the element is not in the hash as a key, add it
     # if the element is in the hash as a key, return that element
 # if the loop completes, return -1
+
+# Method 2
+# according to spec, it looks like a set would be a better idea than
+# a hash. I think they're probably super similar under the hood, but a set
+# is probably more space efficient than a hash
